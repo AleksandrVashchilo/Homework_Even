@@ -27,8 +27,11 @@ public class Even {
         if (lengthOfFirst < lengthOfSecond) {
             System.out.println("Шерлок Холмс");
         }
-        else {
+        if (lengthOfFirst > lengthOfSecond) {
             System.out.println("Мэри");
+        }
+        else {
+            System.out.println("расстояние до Мэри и Шерлок Холмс равно");
         }
 
     }
