@@ -47,7 +47,6 @@ public class Array {
                 rocketSecond[i] = 1110;
             }
         }
-        System.out.println(Arrays.toString(rocketSecond));
         for (int i = 0; i <= 99; i++) {
             sum = sum + rocketSecond[i];
         }
